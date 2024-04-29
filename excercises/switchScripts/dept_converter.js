@@ -2,27 +2,27 @@
 let departmentName = 5;
 switch(departmentName){
     case 1:
-        departmentName = Marketing;
-        console.log(`You are in the ${departmentName}!`);
+        departmentName = `Marketing`;
+        console.log(`You are in the ${departmentName} department!`);
         break;
     case 5:
-        departmentName = Human Resources;
-        console.log(`You are in the ${departmentName}!`);
+        departmentName = `Human Resources`;
+        console.log(`You are in the ${departmentName} department!`);
         break;
     case 10:
-        departmentName = Accounting;
-        console.log(`You are in the ${departmentName}!`);
+        departmentName = `Accounting`;
+        console.log(`You are in the ${departmentName} department!`);
         break;
     case 12:
-        departmentName = Legal;
-        console.log(`You are in the ${departmentName}!`);
+        departmentName = `Legal`;
+        console.log(`You are in the ${departmentName} department!`);
         break;
     case 18:
-        departmentName = IT;
-        console.log(`You are in the ${departmentName}!`);
+        departmentName = `IT`;
+        console.log(`You are in the ${departmentName} department!`);
         break;
     case 20:
-        departmentName = Customer Relations;
-        console.log(`You are in the ${departmentName}!`);
+        departmentName = `Customer Relations`;
+        console.log(`You are in the ${departmentName} department!`);
         break;
 }
