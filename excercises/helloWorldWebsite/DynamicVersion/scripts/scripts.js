@@ -8,5 +8,6 @@ function init() {
 function onHelloBtnClicked() {
     const messagePara = document.getElementById("messagePara");
     alert ("Hi there!");
-    messagePara.innerHTML = "Hi there!";
+    // messagePara.innerHTML = "Hi there!";
 }
+// window.onload = init();
