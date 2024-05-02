@@ -13,12 +13,12 @@ let fullName = "Reyna Kaye";
 //     console.log(`Last name: ${g}`);
 // };
 
-function parseAndDisplayName(){
-    console.log(`Name: ${fullName.slice(0, 10)}`);
-    console.log(`First Name: ${fullName.slice(0, )}`);
-    console.log(`Last Name: ${fullName.slice(6, 10)}`);
+function parseAndDisplayName(g){
+    console.log(`Name: ${g.slice(0, 10)}`);
+    console.log(`First Name: ${g.slice(0, 5)}`);
+    console.log(`Last Name: ${g.slice(6, 10)}`);
 }
 
-parseAndDisplayName(fullName);
+parseAndDisplayName("Reyna Kaye");
 
 
